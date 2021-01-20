@@ -1,0 +1,17 @@
+1. select count(*) from teamsalvador2021;
+
+2. select count(*) from teamsalvador2021 where department = 'Accounting';
+
+3. select count(*) from teamsalvador2021 where status <> 'Activated';
+
+4. select * from teamsalvador2021 limit 5;
+
+5. select * from teamsalvador2021 where age between 19 and 25;
+
+6. select * from teamsalvador2021 where createed_dt='02-01-2020';
+
+7. select * from teamsalvador2021 where createed_dt between '04-01-2020' and '06-01-2020';
+
+8. UPDATE teamsalvador2021 SET Status = 'Activated' WHERE Status <> 'Activated';
+
+9. UPDATE teamsalvador2021 SET NAME = 'Timothy' WHERE NAME = 'Tim';
