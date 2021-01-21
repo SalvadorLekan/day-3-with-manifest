@@ -35,9 +35,9 @@ pool.connect((err, client, done) => {
 
 // insert a record into our table
 pool.query(
-  `INSERT INTO TeamSalvador2021 
-      VALUES 
-      ('salvador lekan', 'lekansalvador@gmail.com', 'Sksijdnisd', 90560271)
+  `INSERT INTO UserSalvador2021 
+    VALUES 
+    ('salvadorlekan', 'lekansalvador@gmail.com', 'Sksijdnisd', 90560271)
   `,
   (err, res) => {
     if (err) {
